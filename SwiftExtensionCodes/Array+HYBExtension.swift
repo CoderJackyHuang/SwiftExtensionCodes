@@ -14,9 +14,11 @@ import UIKit
 /// Github: http://github.com/CoderJackyHuang/
 /// Blog:   http://www.hybblog.com/
 public extension Array {
-  /// 安全移除指定索引位置的元素.如果移除成功，返回被移除元素，否则返回空
+  /// 安全移除指定索引位置的元素.
   ///
   /// - parameter index 指定移除元素的索引
+  ///
+  /// - returns:  如果移除成功，返回被移除元素，否则返回nil
   public mutating func hyb_safeRemoveAtIndex(index: Int) ->Element? {
     if index < 0 || index >= self.count {
       return nil
@@ -25,9 +27,11 @@ public extension Array {
     return self.removeAtIndex(index)
   }
   
-  /// 判断数组中是否包含某元素。如果包含，返回true,否则返回false。
+  /// 判断数组中是否包含某元素。
   ///
   /// - parameter object 遵守Equatable协议的元素
+  ///
+  /// - returns:  如果包含，返回true,否则返回false。
   public func hyb_isContain<T where T: Equatable>(object: T) ->Bool {
     let filterResults = self.filter { (element) -> Bool in
       if let e = element as? T {
