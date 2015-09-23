@@ -9,6 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController {
+  var timer: NSTimer?
   
   override func viewDidLoad() {
     super.viewDidLoad()
@@ -32,8 +33,25 @@ class ViewController: UIViewController {
     print("".hyb_trimRight().hyb_length() == 0)
     
     print("after delay 4")
-    NSObject.hyb_delay(4) { () -> Void in
-      print("4 seconds...")
+    //    NSObject.hyb_delay(4) { () -> Void in
+    //      print("4 seconds...")
+    //    }
+    
+    //NSTimer.hyb_schedule(NSTimeInterval(0.1), repeats: true) { () -> Void in
+    //      print("111")
+    //    }
+    
+    //    NSTimer.hyb_schdule(1, count: 1) { () -> Void in
+    //      print("hyb_schdule(1, count: 2)")
+    //    }
+    
+//    NSTimer.hyb_schdule(count: nil) { () -> Void in
+//      print("nil count")
+//    }
+    
+    // 可以省略
+    NSTimer.hyb_schdule(count: 2) {
+      print("hehe")
     }
   }
   

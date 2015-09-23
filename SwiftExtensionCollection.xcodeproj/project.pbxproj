@@ -13,14 +13,12 @@
 		6919DAA11BB0FA66001F0A01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6919DAA01BB0FA66001F0A01 /* Assets.xcassets */; };
 		6919DAA41BB0FA66001F0A01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6919DAA21BB0FA66001F0A01 /* LaunchScreen.storyboard */; };
 		6919DAAF1BB0FA66001F0A01 /* SwiftExtensionCollectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6919DAAE1BB0FA66001F0A01 /* SwiftExtensionCollectionTests.swift */; };
-		6919DAD71BB12865001F0A01 /* Array+HYBExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6919DAD41BB12865001F0A01 /* Array+HYBExtension.swift */; settings = {ASSET_TAGS = (); }; };
-		6919DAD81BB12865001F0A01 /* Array+HYBExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6919DAD41BB12865001F0A01 /* Array+HYBExtension.swift */; settings = {ASSET_TAGS = (); }; };
-		6919DAD91BB12865001F0A01 /* String+HYBExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6919DAD51BB12865001F0A01 /* String+HYBExtension.swift */; settings = {ASSET_TAGS = (); }; };
-		6919DADA1BB12865001F0A01 /* String+HYBExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6919DAD51BB12865001F0A01 /* String+HYBExtension.swift */; settings = {ASSET_TAGS = (); }; };
-		6919DADB1BB12865001F0A01 /* UIView+HYBExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6919DAD61BB12865001F0A01 /* UIView+HYBExtension.swift */; settings = {ASSET_TAGS = (); }; };
-		6919DADC1BB12865001F0A01 /* UIView+HYBExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6919DAD61BB12865001F0A01 /* UIView+HYBExtension.swift */; settings = {ASSET_TAGS = (); }; };
-		6919DAE41BB14202001F0A01 /* NSObject+HYBExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6919DAE31BB14202001F0A01 /* NSObject+HYBExtension.swift */; settings = {ASSET_TAGS = (); }; };
-		6919DAE51BB14202001F0A01 /* NSObject+HYBExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6919DAE31BB14202001F0A01 /* NSObject+HYBExtension.swift */; settings = {ASSET_TAGS = (); }; };
+		69F029051BB24C3C00A46E19 /* Array+HYBExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F028FF1BB24C3C00A46E19 /* Array+HYBExtension.swift */; settings = {ASSET_TAGS = (); }; };
+		69F029061BB24C3C00A46E19 /* NSFileManager+HYBExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F029001BB24C3C00A46E19 /* NSFileManager+HYBExtension.swift */; settings = {ASSET_TAGS = (); }; };
+		69F029071BB24C3C00A46E19 /* NSObject+HYBExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F029011BB24C3C00A46E19 /* NSObject+HYBExtension.swift */; settings = {ASSET_TAGS = (); }; };
+		69F029081BB24C3C00A46E19 /* NSTimer+HYBExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F029021BB24C3C00A46E19 /* NSTimer+HYBExtension.swift */; settings = {ASSET_TAGS = (); }; };
+		69F029091BB24C3C00A46E19 /* String+HYBExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F029031BB24C3C00A46E19 /* String+HYBExtension.swift */; settings = {ASSET_TAGS = (); }; };
+		69F0290A1BB24C3C00A46E19 /* UIView+HYBExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F029041BB24C3C00A46E19 /* UIView+HYBExtension.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,10 +42,12 @@
 		6919DAAA1BB0FA66001F0A01 /* SwiftExtensionCollectionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftExtensionCollectionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6919DAAE1BB0FA66001F0A01 /* SwiftExtensionCollectionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftExtensionCollectionTests.swift; sourceTree = "<group>"; };
 		6919DAB01BB0FA66001F0A01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6919DAD41BB12865001F0A01 /* Array+HYBExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+HYBExtension.swift"; sourceTree = "<group>"; };
-		6919DAD51BB12865001F0A01 /* String+HYBExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+HYBExtension.swift"; sourceTree = "<group>"; };
-		6919DAD61BB12865001F0A01 /* UIView+HYBExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+HYBExtension.swift"; sourceTree = "<group>"; };
-		6919DAE31BB14202001F0A01 /* NSObject+HYBExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+HYBExtension.swift"; sourceTree = "<group>"; };
+		69F028FF1BB24C3C00A46E19 /* Array+HYBExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+HYBExtension.swift"; sourceTree = "<group>"; };
+		69F029001BB24C3C00A46E19 /* NSFileManager+HYBExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSFileManager+HYBExtension.swift"; sourceTree = "<group>"; };
+		69F029011BB24C3C00A46E19 /* NSObject+HYBExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+HYBExtension.swift"; sourceTree = "<group>"; };
+		69F029021BB24C3C00A46E19 /* NSTimer+HYBExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSTimer+HYBExtension.swift"; sourceTree = "<group>"; };
+		69F029031BB24C3C00A46E19 /* String+HYBExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+HYBExtension.swift"; sourceTree = "<group>"; };
+		69F029041BB24C3C00A46E19 /* UIView+HYBExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+HYBExtension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +71,7 @@
 		6919DA8D1BB0FA66001F0A01 = {
 			isa = PBXGroup;
 			children = (
-				6919DAD31BB12865001F0A01 /* SwiftExtensionCodes */,
+				69F028FE1BB24C3C00A46E19 /* SwiftExtensionCodes */,
 				6919DA981BB0FA66001F0A01 /* SwiftExtensionCollection */,
 				6919DAAD1BB0FA66001F0A01 /* SwiftExtensionCollectionTests */,
 				6919DA971BB0FA66001F0A01 /* Products */,
@@ -109,13 +109,15 @@
 			path = SwiftExtensionCollectionTests;
 			sourceTree = "<group>";
 		};
-		6919DAD31BB12865001F0A01 /* SwiftExtensionCodes */ = {
+		69F028FE1BB24C3C00A46E19 /* SwiftExtensionCodes */ = {
 			isa = PBXGroup;
 			children = (
-				6919DAD41BB12865001F0A01 /* Array+HYBExtension.swift */,
-				6919DAD51BB12865001F0A01 /* String+HYBExtension.swift */,
-				6919DAD61BB12865001F0A01 /* UIView+HYBExtension.swift */,
-				6919DAE31BB14202001F0A01 /* NSObject+HYBExtension.swift */,
+				69F028FF1BB24C3C00A46E19 /* Array+HYBExtension.swift */,
+				69F029001BB24C3C00A46E19 /* NSFileManager+HYBExtension.swift */,
+				69F029011BB24C3C00A46E19 /* NSObject+HYBExtension.swift */,
+				69F029021BB24C3C00A46E19 /* NSTimer+HYBExtension.swift */,
+				69F029031BB24C3C00A46E19 /* String+HYBExtension.swift */,
+				69F029041BB24C3C00A46E19 /* UIView+HYBExtension.swift */,
 			);
 			path = SwiftExtensionCodes;
 			sourceTree = "<group>";
@@ -220,12 +222,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69F0290A1BB24C3C00A46E19 /* UIView+HYBExtension.swift in Sources */,
+				69F029071BB24C3C00A46E19 /* NSObject+HYBExtension.swift in Sources */,
+				69F029061BB24C3C00A46E19 /* NSFileManager+HYBExtension.swift in Sources */,
 				6919DA9C1BB0FA66001F0A01 /* ViewController.swift in Sources */,
-				6919DAD71BB12865001F0A01 /* Array+HYBExtension.swift in Sources */,
-				6919DADB1BB12865001F0A01 /* UIView+HYBExtension.swift in Sources */,
-				6919DAD91BB12865001F0A01 /* String+HYBExtension.swift in Sources */,
+				69F029051BB24C3C00A46E19 /* Array+HYBExtension.swift in Sources */,
+				69F029081BB24C3C00A46E19 /* NSTimer+HYBExtension.swift in Sources */,
+				69F029091BB24C3C00A46E19 /* String+HYBExtension.swift in Sources */,
 				6919DA9A1BB0FA66001F0A01 /* AppDelegate.swift in Sources */,
-				6919DAE41BB14202001F0A01 /* NSObject+HYBExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,11 +237,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6919DAE51BB14202001F0A01 /* NSObject+HYBExtension.swift in Sources */,
-				6919DADC1BB12865001F0A01 /* UIView+HYBExtension.swift in Sources */,
 				6919DAAF1BB0FA66001F0A01 /* SwiftExtensionCollectionTests.swift in Sources */,
-				6919DADA1BB12865001F0A01 /* String+HYBExtension.swift in Sources */,
-				6919DAD81BB12865001F0A01 /* Array+HYBExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
