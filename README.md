@@ -13,7 +13,21 @@ This is shorthand of my Chinese name.So don't worry about it.
 It supports cocoapods.just add to podfile as bellow:
 
 ```
-pod 'SwiftExtensionCodes', '~> 0.0.1'
+pod 'SwiftExtensionCodes', '~> 0.1.1'
+```
+
+##What's New in v0.1.1
+In v0.1.1, add UIViewController extension for show alert view and action sheet conveniencely.
+```
+// We can specify the sequence of ok and cancel button. 
+self.hyb_okCancelDirection = .CancelOk 
+// only title, ok button and cancel button
+self.hyb_showAlert("cancel, ok") 
+
+// common use
+self.hyb_showActionSheet("Thanks", message: "How to call with hyb_showActionSheet", cancel: "Cancel", destructive: "Destructive", otherTitles: "Beijing", "ShenZhen") { (index) -> Void in
+   print(index)
+}
 ```
 
 ##How to use
