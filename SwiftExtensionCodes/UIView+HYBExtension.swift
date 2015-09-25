@@ -45,6 +45,12 @@ public extension UIView {
     get { return self.frame.size.height }
     set { self.frame.size.height = newValue }
   }
+  
+  /// Get/set self.frame.size
+  var hyb_size: CGSize {
+    get { return self.frame.size }
+    set { self.frame.size = newValue }
+  }
 
   /// Get/set self.frame.size.width + self.frame.origin.x
   var hyb_rightX: CGFloat {

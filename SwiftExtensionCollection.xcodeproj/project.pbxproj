@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		69147FFB1BB547CA006D5F32 /* UIViewController+HYBExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69147FFA1BB547CA006D5F32 /* UIViewController+HYBExtension.swift */; settings = {ASSET_TAGS = (); }; };
+		69147FFC1BB547CA006D5F32 /* UIViewController+HYBExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69147FFA1BB547CA006D5F32 /* UIViewController+HYBExtension.swift */; settings = {ASSET_TAGS = (); }; };
 		6919DA9A1BB0FA66001F0A01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6919DA991BB0FA66001F0A01 /* AppDelegate.swift */; };
 		6919DA9C1BB0FA66001F0A01 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6919DA9B1BB0FA66001F0A01 /* ViewController.swift */; };
 		6919DA9F1BB0FA66001F0A01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6919DA9D1BB0FA66001F0A01 /* Main.storyboard */; };
@@ -32,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		69147FFA1BB547CA006D5F32 /* UIViewController+HYBExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+HYBExtension.swift"; sourceTree = "<group>"; };
 		6919DA961BB0FA66001F0A01 /* SwiftExtensionCollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftExtensionCollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6919DA991BB0FA66001F0A01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6919DA9B1BB0FA66001F0A01 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -118,6 +121,7 @@
 				69F029021BB24C3C00A46E19 /* NSTimer+HYBExtension.swift */,
 				69F029031BB24C3C00A46E19 /* String+HYBExtension.swift */,
 				69F029041BB24C3C00A46E19 /* UIView+HYBExtension.swift */,
+				69147FFA1BB547CA006D5F32 /* UIViewController+HYBExtension.swift */,
 			);
 			path = SwiftExtensionCodes;
 			sourceTree = "<group>";
@@ -223,6 +227,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				69F0290A1BB24C3C00A46E19 /* UIView+HYBExtension.swift in Sources */,
+				69147FFB1BB547CA006D5F32 /* UIViewController+HYBExtension.swift in Sources */,
 				69F029071BB24C3C00A46E19 /* NSObject+HYBExtension.swift in Sources */,
 				69F029061BB24C3C00A46E19 /* NSFileManager+HYBExtension.swift in Sources */,
 				6919DA9C1BB0FA66001F0A01 /* ViewController.swift in Sources */,
@@ -237,6 +242,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69147FFC1BB547CA006D5F32 /* UIViewController+HYBExtension.swift in Sources */,
 				6919DAAF1BB0FA66001F0A01 /* SwiftExtensionCollectionTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

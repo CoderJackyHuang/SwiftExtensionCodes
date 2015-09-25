@@ -32,34 +32,44 @@ class ViewController: UIViewController {
     print("  \n  ".hyb_trimRight(true).hyb_length() == 0)
     print("".hyb_trimRight().hyb_length() == 0)
     
-    print("after delay 4")
+//    print("after delay 4")
     //    NSObject.hyb_delay(4) { () -> Void in
-    //      print("4 seconds...")
-    //    }
+
     
     //NSTimer.hyb_schedule(NSTimeInterval(0.1), repeats: true) { () -> Void in
     //      print("111")
-    //    }
-    
-    //    NSTimer.hyb_schdule(1, count: 1) { () -> Void in
-    //      print("hyb_schdule(1, count: 2)")
-    //    }
-    
+//          print("hyb_schdule(1, count: 2)")
+//        }
+//    
 //    NSTimer.hyb_schdule(count: nil) { () -> Void in
 //      print("nil count")
 //    }
+//    
+//    // 可以省略
+//    NSTimer.hyb_schdule(count: 2) {
+//      print("hehe")
+//    }
+//    self.hyb_showAlert("Thanks")
+//    self.hyb_showOkAlert("Thanks") { () -> Void in
+//      print("hehe")
+//    }
+//    self.hyb_showOkAlert("Thanks") { () -> Void in
+//      print("hehe")
+//    }
+
+//    self.hyb_showAlert("Thanks", message: "hehe", buttonTitles: ["Left", "Right"]) { (index) -> Void in
+//      print("\(index)")
+//    }
     
-    // 可以省略
-    NSTimer.hyb_schdule(count: 2) {
-      print("hehe")
+//    self.hyb_okCancelDirection = .CancelOk
+//    self.hyb_showAlert("cancel, ok")
+//   self.hyb_showActionSheet("Thanks", message: "How to call with hyb_showActionSheet", cancel: "Cancel", destructive: "Destructive", otherTitles: "Beijing", "ShenZhen") { (index) -> Void in
+//    print(index)
+//    }
+    
+    self.hyb_showActionSheet("Thanks", message: "How to use", cancel: "Cancel", otherTitles: "First", "Second") { (index) -> Void in
+      print(index)
     }
   }
-  
-  override func didReceiveMemoryWarning() {
-    super.didReceiveMemoryWarning()
-    // Dispose of any resources that can be recreated.
-  }
-  
-  
 }
 
