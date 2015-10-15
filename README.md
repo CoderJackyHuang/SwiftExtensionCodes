@@ -49,5 +49,8 @@ Want to know more about me?
 Personal blog: http://www.hybblog.com/
 Email: huangyibiao520@163.com
 
+##Follow Me
+![image](https://github.com/CoderJackyHuang/IOSCallJsOrJsCallIOS/blob/master/wx.jpg)
+
 ##License
 This software is under MIT license.
